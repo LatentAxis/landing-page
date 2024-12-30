@@ -1,0 +1,56 @@
+body{
+    font-style: Roboto;
+}
+
+.menu, .sec-hero {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.menu {
+    display: flex;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.content-one .hero {
+    background-color: #1F2937;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* this next is grabbing both the main HERO title/H1 and the footer */
+.hero { 
+    background-color: #1F2937;
+    color:  #F9FAF8;
+}
+
+button, .call-to-action {
+    background-color: #3882F6;
+}
+
+.content-images h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
