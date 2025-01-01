@@ -125,8 +125,9 @@ button {
     text-align: center;
 }
 
+/* Here starts the quote section */
 .quote {
-    padding: 250px 350px;
+    padding: 180px 350px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 100;
@@ -140,7 +141,29 @@ button {
     justify-content: flex-end;
 }
 
+/* Here starts the Call to Action section */
+.action-container{
+    padding: 100px 250px;
+}
+
+.call-to-action {
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.call-to-action button {
+    border: 1px solid #F9FAF8;
+}
+
+/* Here starts the footer*/
 .footer{
     background-color: #1F2937;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
