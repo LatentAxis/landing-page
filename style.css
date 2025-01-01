@@ -1,5 +1,16 @@
 body{
-    font-style: Roboto;
+    font-family: "Roboto", serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    color:  #F9FAF8;
+    
+}
+
+img {
+    width: 800px;
+    padding-left: 3em;
 }
 
 .menu, .sec-hero {
@@ -10,47 +21,117 @@ body{
 
 .menu {
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+
 }
 
 ul {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
     gap: 16px;
+    justify-content: flex-end;
+}
+
+#dark-container {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1F2937;
+}
+
+h1, p { 
+    margin: 0;
+}
+.content-one {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo{
-    color: #F9FAF8;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
 }
 
 .content-one .hero {
     background-color: #1F2937;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
-/* this next is grabbing both the main HERO title/H1 and the footer */
-.hero { 
-    background-color: #1F2937;
-    color:  #F9FAF8;
+.hero, .sec-hero {
+    margin-bottom: 10px;
 }
 
 button, .call-to-action {
     background-color: #3882F6;
 }
 
-.content-images h2 {
+button {
+    border-radius: 5px;
+    max-width: fit-content;
+    padding: 5px 20px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+}
+
+.content-random-information {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.content-random-information h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
+
+.random-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image {
+    border: #3882F6 solid 2px;
+    border-radius: 10px;
+    max-width: 150px;
+}
+
+.img-txt {
+}
+
+/*
+
+this next is grabbing both the main HERO title/H1 and the footer
+.hero { 
+    background-color: #1F2937;
+    color:  #F9FAF8;
+}
+
+
+
+
 
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+} */
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
