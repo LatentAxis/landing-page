@@ -8,7 +8,7 @@ body{
     
 }
 
-img {
+.hero-img {
     width: 800px;
     padding-left: 3em;
 }
@@ -84,11 +84,14 @@ button {
     border: none;
 }
 
+/*This is for the random information section*/
+
 .content-random-information {
     color: grey;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .content-random-information h2 {
@@ -99,17 +102,27 @@ button {
 
 .random-content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.img-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 30px;
 }
 
 .image {
-    border: #3882F6 solid 2px;
+    border: #3882F6 solid 3px;
     border-radius: 10px;
-    max-width: 150px;
+    max-width: 200px;
+    height: auto;
 }
 
-.img-txt {
+.img-txt p {
+    max-width: 200px;
+    text-align: center;
 }
 
 /*
